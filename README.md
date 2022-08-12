@@ -18,3 +18,8 @@ Your project should:
 - Have minimum functionalities and effects working
 
 Want some support on the challenge? [Join our discord community](https://bit.ly/codedamn-discord) and ask questions in the **#general** channel.
+
+### Links
+
+- Solution URL: [Solution URL here](https://codedamn.com/learn/advanced-html-css/projects/eventually-stunning-html5-landing-page.eoaVRWSxAwJnGSxx8uxoh)
+- Live Site URL: [Live site URL here](https://eventually-stunning-html5-landing-page-codedamn.pages.dev/)
