@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/images/bg01.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: 45%;
+    font-family: "Roboto";
+    position: relative;
+    background-size: cover;
+}
+
+body::after {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.8);
+}   
+
+.main-container {
+    position: relative;
+    z-index: 4;
+    height: 85vh;
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-input {
+    border: 2px solid #7e8588;
+    background-color: transparent;
+    padding-left: 1rem;
+    padding-block: 10px;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    font-size: inherit;
+    font-weight: 900;
+    color: #7e8588;
+}
+
+.singup-button {
+    font-family: inherit;
+    font-size: 1rem;
+    border: none;
+    padding-block: 10px;
+    border-radius: 6px;
+    background-color: #1cb495;
+    color: #fff;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.icon-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+}
+
+.icon-list li {
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    z-index: 4;
+    color: #414e52;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.heading,
+.paragraph {
+    display: none;
+}
+
+.paragraph {
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.message {
+    color: #1cb495;
+}
+
+@media (min-width: 500px) {
+
+    .heading,
+    .paragraph {
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    .heading {
+        color: #fff;
+        font-weight: 900;
+        font-size: 2rem;
+    }
+
+    .paragraph {
+        color: #7e8588;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    .flex {
+        align-items: flex-start;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .singup-button {
+        padding: .8rem;
+    }
+
+    .email-input {
+        width: 16rem;
+    }
+}
+
+@media (min-width: 600px) {
+
+    .heading,
+    .paragraph {
+        margin-bottom: 1.5rem;
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+
+    .email-input {
+        width: 18rem;
+    }
+}
+
+@media (min-width: 800px) {
+    .heading {
+        font-size: 3.5rem;
+    }
+
+    .paragraph {
+        font-size: 1.1rem;
+    }
+
+    .email-input {
+        width: 20rem;
+    }
+}
