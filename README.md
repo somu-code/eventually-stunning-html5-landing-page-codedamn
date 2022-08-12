@@ -18,23 +18,3 @@ Your project should:
 - Have minimum functionalities and effects working
 
 Want some support on the challenge? [Join our discord community](https://bit.ly/codedamn-discord) and ask questions in the **#general** channel.
-
-## Where to find everything
-
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design.
-
-The designs are in image formats (sketch and figma designs coming soon).
-
-You will find all the required assets in the `/assets` folder. These include images, fonts, etc.
-
-There is also a `style-guide.html` file containing the information you'll need, such as color palette and font names. Make sure to open this in the browser to see the contents.
-
-## Submitting solution
-
-Submit your solution on the platform for the rest of the community to see. Find this project [on codedamn projects page]($https://codedamn.com/projects) for tips on how to do this.
-
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Send feedback!
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please visit [codedamn feedback page](https://codedamn.com/contact)
